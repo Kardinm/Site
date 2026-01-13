@@ -1,4 +1,7 @@
-<p>Щось.</p>
+{% extends "base.html" %}
+{% block content %}
+<p>Щось</p>
 <form method="post" action="/logout">
   <button type="submit">Logout</button>
 </form>
+{% endblock %}
