@@ -4,8 +4,8 @@ from fastapi.security import OAuth2PasswordBearer
 from jose import JWTError, jwt
 from passlib.context import CryptContext
 
-from app.db.db import get_db
-from app.models.user import User
+from Site.db.db import get_db
+from Site.models.user import User
 
 
 SECRET_KEY = "super_secret_key_228901991207468"
